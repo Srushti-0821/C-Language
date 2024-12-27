@@ -1,0 +1,17 @@
+4. Area of Rectangle
+
+#include <stdio.h>
+
+int main() {
+    int l;
+    float rec;
+    
+    printf("Enter a Lenght :");
+    scanf("%d",&l);
+    
+    rec=l*l;
+    
+    printf("Area of Rectangle is : %.2f",rec);
+    
+    return 0;
+}

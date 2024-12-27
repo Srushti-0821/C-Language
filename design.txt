@@ -1,0 +1,15 @@
+2. WAP to find square of number in rectangle box.
+
+#include <stdio.h>
+
+int main() {
+    
+    int a;
+    
+    printf("----------");
+    printf("\n | \n |  \t \t | \n |");
+    printf("---------- \n");
+
+    return 0;
+}
+

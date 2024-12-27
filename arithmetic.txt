@@ -1,0 +1,49 @@
+1. WRP to perform arithmetic operations
+
+
+#include <stdio.h>
+
+int main() {
+    
+// Addition
+    
+	int a=12 , b=6 , tot=a+b;
+	
+	printf("Enter a Value of A : %d \n",a);
+	
+	printf("Enter a Value of B :%d \n",b);
+
+	printf("Total of Sum is : %d \n",tot);
+
+// Subtraction
+
+	int a=12 , b=6 , tot=a-b;
+	
+	printf("Enter a Value of A : %d \n",a);
+	
+	printf("Enter a Value of B :%d \n",b);
+
+	printf("Total of Sum is : %d \n",tot);
+
+// Multiplaction
+	
+	int a=12 , b=6 , tot=a*b;
+	
+	printf("Enter a Value of A : %d \n",a);
+
+	printf("Enter a Value of B :%d \n",b);
+
+	printf("Total of Sum is : %d \n",tot);
+
+// Division
+	
+	int a=12 , b=6 , tot=a/b;
+	
+	printf("Enter a Value of A : %d \n",a);
+	
+	printf("Enter a Value of B :%d \n",b);
+
+	printf("Total of Sum is : %d \n",tot);
+
+    return 0;
+}
