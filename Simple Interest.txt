@@ -1,0 +1,22 @@
+6. WAP to find Simple Interest
+
+#include <stdio.h>
+
+int main() {
+    float p,r,n,s;
+    
+    printf("Enter a value of P :");
+    scanf("%f",&p);
+    
+    printf("Enter a value of R :");
+    scanf("%f",&r);
+    
+    printf("Enter a value of N :");
+    scanf("%f",&n);
+    
+    s=(p*r*n)/100;
+    
+    printf("Simple Interest is : %.2f",s);
+
+    return 0;
+}
