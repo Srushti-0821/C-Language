@@ -1,0 +1,33 @@
+11. Gross Salary Calculator
+
+#include <stdio.h>
+
+int main() {
+    int salary;
+    float HRA,DA,TA,tot;
+    
+    printf("Enter a User Salary :");
+    scanf("%d",&salary);
+    
+    printf("Enter a HRA Ammount :");
+    scanf("%f",&HRA);
+    
+    printf("Enter a DA Ammount :");
+    scanf("%f",&DA);
+    
+    printf("Enter a TA Ammount :");
+    scanf("%f",&TA);
+    
+    tot=salary+HRA+DA+TA;
+    
+    printf("Total Salary IS : %.2f" , tot);
+
+    return 0;
+}
+
+output :- Enter a User Salary :100
+Enter a HRA Ammount :10
+Enter a DA Ammount :5
+Enter a TA Ammount :8
+Total Salary IS : 123.00
+

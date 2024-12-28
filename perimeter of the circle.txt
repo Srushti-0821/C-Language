@@ -1,0 +1,22 @@
+14. find the perimeter of the circle
+	formula 2pir
+
+#include <stdio.h>
+#define pi 3.14
+
+int main() {
+    
+//   formula  A = 1/2 × b × h.
+
+    int r;
+    float sum;
+    
+    printf("Enter a value of R :");
+    scanf("%d" , &r);
+    
+    sum = 2 * pi *r;
+    
+    printf("Total Redius is : %.2f" , sum);
+
+    return 0;
+}

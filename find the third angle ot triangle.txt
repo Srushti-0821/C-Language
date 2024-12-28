@@ -1,0 +1,22 @@
+13. find the third angle of a right triangle when two other angles are given :
+
+	first angle is : 65
+	second angle is : 45
+
+#include <stdio.h>
+
+int main() {
+    
+//   formula  A = 1/2 × b × h.
+
+    int a,b,c,d;
+    b=45;
+    c=65;
+    d=180;
+    
+    a=d-b-c;
+    
+    printf("Triangle is : %d" , a);
+
+    return 0;
+}
