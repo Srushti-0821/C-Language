@@ -1,0 +1,67 @@
+16. Hotel Menu
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    
+    int a,b;
+    
+    printf(" 1. Shiva's Coffee \n");
+    printf(" 2. Ajay's Cafe \n");
+    
+    printf("----------------------------------------- \n");
+    
+    printf("Enter Your Choice : ");
+    scanf("%d",&a);
+    
+    
+    printf("----------------------------------------- \n");
+    
+    if(a==1){
+        printf("Shiva's Coffee \n");
+        printf(" A. Black Coffee-----250 \n");
+        printf(" B. French Fries----100 \n");
+        printf(" C. Sendwich----150 \n");
+        
+        printf("----------------------------------------- \n");
+        
+        printf("Enter Your Choice :");
+        scanf("%d",&b);
+        if(b==1){
+            printf("You Select a Black Coffee %d" , &b);
+        }
+        else if(b==2){
+            printf("You Select a Franch Fries %d" , &b);
+        }
+        
+          else if(b==3){
+            printf("You Select a Sendwich %d" , &b);
+        }
+    }
+    
+    else if(a==2){
+        printf("Ajay's Cafe \n");
+        printf(" A. Coffee --- 100 \n");
+        printf(" B.  Fries --- 200 \n");
+        printf(" C. Sendwiches --- 250 \n");
+        
+        printf("----------------------------------------- \n");
+        
+        printf("Enter Your Choice :");
+        scanf("%d",&b);
+        
+        if(b==1){
+            printf("You Select a  Coffee %d" , &b);
+        }
+        else if(b==2){
+            printf("You Select a  Fries %d" , &b);
+        }
+        
+        else if(b==3){
+            printf("You Select a Sendwiches %d" , &b);
+        }
+    }
+
+    return 0;
+}
