@@ -1,5 +1,3 @@
-16. Hotel Menu
-
 // Online C compiler to run C program online
 #include <stdio.h>
 
@@ -9,6 +7,146 @@ int main() {
     
     printf(" 1. Shiva's Coffee \n");
     printf(" 2. Ajay's Cafe \n");
+    printf(" 3. Karnavati \n");// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    
+    int a,b;
+    
+    printf(" 1. Shiva's Coffee \n");
+    printf(" 2. Ajay's Cafe \n");
+    printf(" 3. Karnavati \n");
+    // printf(" 4. Jay Bhavani \n");
+    // printf(" 5. Bole to Vadapav \n");
+    
+    printf("----------------------------------------- \n");
+    
+    printf("Enter Your Choice : ");
+    scanf("%d",&a);
+    
+    
+    printf("----------------------------------------- \n");
+    
+    if(a==1){
+        printf("Welcome to Shiva's Coffee \n");
+        printf(" A. Black Coffee-----250 \n");
+        printf(" B. French Fries----100 \n");
+        printf(" C. Sendwich----150 \n");
+        printf(" D. Cold Drinks----50 \n");
+        printf(" E. Hot Chocolate----200 \n");
+        printf(" F. Cold Coffee---150 \n");
+        
+        printf("----------------------------------------- \n");
+        
+        printf("Enter Your Choice :");
+        scanf("%d",&b);
+        if(b==1){
+            printf("You Select a Black Coffee-----250" , &b);
+        }
+        else if(b==2){
+            printf("You Select a French Fries----100" , &b);
+        }
+        
+        else if(b==3){
+            printf("You Select a Sendwich----150" , &b);
+        }
+        
+        else if(b==4){
+            printf("You Select a Cold Drinks----50" , &b);
+        }
+        
+        else if(b==5){
+            printf("You Select a Hot Chocolate----200" , &b);
+        }
+        
+        else if(b==6){
+            printf("You Select a Cold Coffee---150" , &b);
+        }
+        
+        else{
+            printf("Nothing You Select");
+        }
+    }
+    
+    else if(a==2){
+        printf("Welcome to Ajay's Cafe \n");
+        printf(" A. Coffee --- 100 \n");
+        printf(" B.  Fries --- 200 \n");
+        printf(" C. Sendwiches --- 250 \n");
+        printf(" D. Burger---60 \n");
+        printf(" E. Cold Coffer---100 \n");
+        
+        printf("----------------------------------------- \n");
+        
+        printf("Enter Your Choice :");
+        scanf("%d",&b);
+        
+        if(b==1){
+            printf("You Select a Coffee --- 100" , &b);
+        }
+        else if(b==2){
+            printf("You Select a Fries --- 200" , &b);
+        }
+        
+        else if(b==3){
+            printf("You Select a Sendwiches --- 250" , &b);
+        }
+        
+        else if(b==4){
+            printf("You Select a Burger---60" , &b);
+        }
+        
+        else if(b==5){
+            printf("You Select a Cold Coffee---100" , &b);
+        }
+        
+        else{
+            printf("Nothing You Select");
+        }
+    }
+    
+    else if(a==3){
+        printf("Welcome to Karnavati \n");
+        printf(" A. Pizza----150 \n");
+        printf(" B.  Dabeli---50 \n");
+        printf(" C. Vadapav----30 \n");
+        printf(" D. Burger---50 \n");
+        printf(" E. Cold Coffer---100 \n");
+        
+        printf("----------------------------------------- \n");
+        
+        printf("Enter Your Choice :");
+        scanf("%d",&b);
+        
+        if(b==1){
+            printf("You Select a Pizza ---- 150" , &b);
+        }
+        else if(b==2){
+            printf("You Select a Dabeli---50" , &b);
+        }
+        
+        else if(b==3){
+            printf("You Select a Vadapav----30" , &b);
+        }
+        
+        else if(b==4){
+            printf("You Select a Burger---50" , &b);
+        }
+        
+        else if(b==5){
+            printf("You Select a Cold Coffee---100" , &b);
+        }
+        
+        else{
+            printf("Nothing You Select");
+        }
+    }
+
+    return 0;
+}
+    // printf(" 4. Jay Bhavani \n");
+    // printf(" 5. Bole to Vadapav \n");
     
     printf("----------------------------------------- \n");
     
@@ -23,20 +161,39 @@ int main() {
         printf(" A. Black Coffee-----250 \n");
         printf(" B. French Fries----100 \n");
         printf(" C. Sendwich----150 \n");
+        printf(" D. Cold Drinks----50 \n");
+        printf(" E. Hot Chocolate----200 \n");
+        printf(" F. Cold Coffee---150 \n");
         
         printf("----------------------------------------- \n");
         
         printf("Enter Your Choice :");
         scanf("%d",&b);
         if(b==1){
-            printf("You Select a Black Coffee %d" , &b);
+            printf("You Select a Black Coffee-----250" , &b);
         }
         else if(b==2){
-            printf("You Select a Franch Fries %d" , &b);
+            printf("You Select a French Fries----100" , &b);
         }
         
-          else if(b==3){
-            printf("You Select a Sendwich %d" , &b);
+        else if(b==3){
+            printf("You Select a Sendwich----150" , &b);
+        }
+        
+        else if(b==4){
+            printf("You Select a Cold Drinks----50" , &b);
+        }
+        
+        else if(b==5){
+            printf("You Select a Hot Chocolate----200" , &b);
+        }
+        
+        else if(b==6){
+            printf("You Select a Cold Coffee---150" , &b);
+        }
+        
+        else{
+            printf("Nothing You Select");
         }
     }
     
@@ -45,6 +202,8 @@ int main() {
         printf(" A. Coffee --- 100 \n");
         printf(" B.  Fries --- 200 \n");
         printf(" C. Sendwiches --- 250 \n");
+        printf(" D. Burger---60 \n");
+        printf(" E. Cold Coffer---100 \n");
         
         printf("----------------------------------------- \n");
         
@@ -52,14 +211,26 @@ int main() {
         scanf("%d",&b);
         
         if(b==1){
-            printf("You Select a  Coffee %d" , &b);
+            printf("You Select a Coffee --- 100" , &b);
         }
         else if(b==2){
-            printf("You Select a  Fries %d" , &b);
+            printf("You Select a Fries --- 200" , &b);
         }
         
         else if(b==3){
-            printf("You Select a Sendwiches %d" , &b);
+            printf("You Select a Sendwiches --- 250" , &b);
+        }
+        
+        else if(b==4){
+            printf("You Select a Burger---60" , &b);
+        }
+        
+        else if(b==5){
+            printf("You Select a Cold Coffee---100" , &b);
+        }
+        
+        else{
+            printf("Nothing You Select");
         }
     }
 
