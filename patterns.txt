@@ -1,0 +1,72 @@
+patterns
+
+
+
+#include <stdio.h>
+
+int main() {
+   
+**********************************************************
+#include <stdio.h>
+
+int main() {
+   
+   
+  int i,j,n=2,a;
+  
+  printf("Enter a value :");
+  scanf("%d",&a);
+  
+  
+  for(i=0;i<=a;i++)
+  {
+     printf(" *");
+          
+  }
+  printf("\n");
+   
+  for(i=0;i<=a;i++)
+  {
+      for(j=0;j<=a;j++)
+      {
+            if(i==0  || j==a/2 || i==a-0)
+            {
+                printf(" *");
+            }
+            else
+            {
+                printf("  ");
+            }
+      }
+       
+      printf("\n");
+  }
+  
+   for(i=0;i<=a;i++)
+  {
+     printf(" *");
+          
+  }
+  printf("\n");
+
+    return 0;
+}
+output :
+
+Enter a value :10
+
+ * * * * * * * * * * *
+ * * * * * * * * * * *
+           *          
+           *          
+           *          
+           *          
+           *          
+           *          
+           *          
+           *          
+           *          
+ * * * * * * * * * * *
+ * * * * * * * * * * *
+
+****************************************************************
