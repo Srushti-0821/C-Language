@@ -1,0 +1,69 @@
+Find a voval charcter
+
+#include <stdio.h>
+
+int main() {
+    
+    
+    int voval;
+    
+    printf("Enter a Charcter : ");
+    scanf("%d",&voval);
+    
+    // printf("Your Charcter is : %c",voval);
+    
+    switch(voval){
+        case 1: 
+            printf("A");
+        break;
+        
+        case 2:
+            printf("E");
+        break;
+        
+        case 3: 
+            printf("I");
+        break;
+        
+        case 4:
+            printf("O");
+        break;
+        
+        case 5:
+            printf("U");
+        break;
+        
+        default:
+            printf(" Your Charcter is not a Voval ");
+    }
+
+    return 0;
+}
+
+********************************************************************************************
+
+print a alphabats
+
+  int i;
+    
+    for(i=65;i<=90;i++){
+        printf("Your Alphabats are : %c \n",i);
+    }
+    
+    printf("\n***************************************************** \n \n");
+    
+    
+     for(i=97;i<=122;i++){
+        printf("Your Alphabats are : %c \n",i);
+    }
+
+**************************************************************************************
+
+skip 3 words in alphabats
+
+   char alphabats,i;
+    
+    for(i=65;i<=90;i++){
+        printf("%c \n",i);
+        i+=3;
+    }
